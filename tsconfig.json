@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "outDir": "bin",
+    "sourceMap": false,
+    "watch": false,
+    "alwaysStrict": true
+  },
+  "include": ["src/**/*.ts", "../common/typings/*.ts"],
+  "exclude": ["node_modules"]
+}

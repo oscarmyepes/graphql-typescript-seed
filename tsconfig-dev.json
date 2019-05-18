@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "outDir": "bin",
+    "sourceMap": true,
+    "watch": false,
+    "lib": ["dom", "es2015.promise", "es6"],
+    "alwaysStrict": true
+  },
+  "include": ["src/**/*.ts", "../common/typings/*.ts"],
+  "exclude": ["node_modules"]
+}

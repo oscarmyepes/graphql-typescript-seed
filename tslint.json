@@ -1,0 +1,21 @@
+{
+  "defaultSeverity": "error",
+  "extends": ["tslint:recommended"],
+  "jsRules": {},
+  "rules": {
+    "space-before-function-paren": [
+      true,
+      {
+        "anonymous": "always",
+        "named": "never",
+        "asyncArrow": "always"
+      }
+    ],
+    "indent": [false, "tabs", 2],
+    "typedef": [true, "call-signature", "property-declaration"],
+    "cyclomatic-complexity": [true, 10],
+    "object-literal-sort-keys": [false],
+    "trailing-comma": [false]
+  },
+  "rulesDirectory": []
+}
